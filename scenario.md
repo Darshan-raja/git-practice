@@ -19,3 +19,23 @@ Questions:
 • Which Git command helps here?
 
 commands :
+git restore --staged index.html
+git reset index.html
+
+## Scenario 3: Modify Last Commit Message
+You committed changes but made a mistake in the commit message.
+The commit is not yet pushed to the remote repository.
+Questions:
+• How will you correct the commit message?
+• Will this create a new commit? Explain.
+
+commands:
+git commit --amend -m "new commit message"
+
+
+## git Scenario 4: Add Missed File to Last Commit
+You committed your changes but forgot to include config.yaml.
+The commit has not been pushed yet.
+Questions:
+• How will you add the missed file to the previous commit?
+• Which command helps avoid creating a new commit
